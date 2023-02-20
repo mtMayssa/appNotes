@@ -27,6 +27,7 @@ function App() {
 
       <Container className="mt-5">
         {/* <BlockList /> */}
+        <button>hello</button>
         <Row>
           <Col>
             <NoteList notes={notes} deleteNote={deleteNote} />
