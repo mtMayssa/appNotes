@@ -26,7 +26,7 @@ function App() {
       <Header />
 
       <Container className="mt-5">
-        <BlockList />
+        {/* <BlockList /> */}
         <Row>
           <Col>
             <NoteList notes={notes} deleteNote={deleteNote} />
